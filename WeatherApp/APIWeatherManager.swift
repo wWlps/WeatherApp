@@ -12,7 +12,7 @@ struct Coordinates {
     let latitude: Double
     let longitude: Double
 }
-
+//рол
 enum ForecastType:FinalURLPoint {
     case Current(apiKey: String, coordinates: Coordinates)
     var baseURL: URL {

@@ -38,8 +38,8 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
     }
     
     lazy var weatherManager = APIWeatherManager(apiKey: "a668c2449da9259682286150469dd6fe")
-    let coordinates = Coordinates(latitude: 25.755435, longitude: 37.609549)
-    
+    let coordinates = Coordinates(latitude: 47.225338, longitude: 39.676133)
+    //latitude: 25.755435, longitude: 37.609549
     override func viewDidLoad() {
         super.viewDidLoad()
         
